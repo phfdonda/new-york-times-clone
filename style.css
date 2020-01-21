@@ -16,7 +16,7 @@ header,
 unlock_more,
 .tile,
 .story_footer {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 main {
@@ -25,41 +25,72 @@ main {
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 15px;
   width: 100%;
   position: fixed;
   height: 43px;
   top: 0;
   background-color: white;
   border-bottom: 1px solid #cccccc;
+
 }
 
 .left_header {
+  float: left;
   display: flex;
   align-items: center;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .space_cosmos {
   text-transform: uppercase;
   vertical-align: middle;
+  font-size: 0.9rem;
+  font-weight: 900;
 }
 
 .right_header {
-  margin-right: 100px;
+
+  float: right;
+  margin-right: 20px;
 }
 
 header svg {
-  align-self: center;
+
+  left: calc(50% - 50px);
   height: 26.5px;
 }
 
 header button {
+
   background-color: inherit;
   border: none;
+}
+
+header i {
+  font-size: 0.6rem;
+  
+}
+
+.right_container {
+  display: inline-block;
+  float: right;
+  height: 100%;
+  min-width: 33%;
+  max-width: calc(50%-195px);
+}
+
+.middle_container {
+  display: inline-block;
+  min-width: 195px;
+  height: 100%;
+}
+
+.left_container {
+  display: inline-block;
+  height: 100%;
+  float: left;
+  width: calc(50% - 79.5px);
 }
 
 .right_header button {
