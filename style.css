@@ -192,3 +192,8 @@ h6 {
   color: black;
   color: rgb(51, 51, 51);
 }
+
+.bottom_of_article svg {
+  width: 27px;
+  height: 27px;
+}
