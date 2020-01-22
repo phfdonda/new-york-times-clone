@@ -35,7 +35,7 @@ header {
 }
 
 .left_header {
-  float: right;
+
   display: flex;
   align-items: center;
   margin-left: 20px;
