@@ -35,7 +35,7 @@ header {
 }
 
 .left_header {
-  float: left;
+  float: right;
   display: flex;
   align-items: center;
   margin-left: 20px;
@@ -134,14 +134,24 @@ h1 {
   font-size: 1.2rem;
 }
 
-.top_of_article,
-.section p {
+.section {
   width: 50%;
   margin: 0 auto;
 }
 
+.unlock_more {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 .editors_pick_side {
   background-color: grey;
+  float: right;
+  width: 100px;
+  height: 100px;
 }
 /********* CLASSES ***********/
 
