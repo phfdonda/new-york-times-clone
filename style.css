@@ -145,13 +145,6 @@ h1 {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.editors_pick_side {
-  margin-bottom: calc(50%);
-  background-color: grey;
-  float: right;
-  width: 100px;
-  height: 400px;
-}
 /********* CLASSES ***********/
 
 .main_image {
@@ -210,5 +203,11 @@ h6 {
   background-color: lightgrey;
   width: 20%;
   display: inline-block;
+}
 
+.editors_pick_side {
+  margin-bottom: calc(20% + 200px);
+  background-color: grey;
+  float: right;
+  width: 100px;
 }
