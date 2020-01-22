@@ -13,7 +13,7 @@ body {
 
 header,
 .top_of_article,
-unlock_more,
+.unlock_more,
 .tile,
 .story_footer {
   font-family: Helvetica, Arial, sans-serif;
@@ -21,7 +21,7 @@ unlock_more,
 
 main {
   margin: 100px auto 0 auto;
-  width: 70%;
+  width: 90%;
 }
 
 header {
@@ -35,7 +35,6 @@ header {
 }
 
 .left_header {
-
   display: flex;
   align-items: center;
   margin-left: 20px;
@@ -135,8 +134,7 @@ h1 {
 }
 
 .section {
-  width: 50%;
-  margin: 0 auto;
+  margin: 0 0 0 47%;
 }
 
 .unlock_more {
@@ -148,10 +146,11 @@ h1 {
 }
 
 .editors_pick_side {
+  margin-bottom: calc(50%);
   background-color: grey;
   float: right;
   width: 100px;
-  height: 100px;
+  height: 400px;
 }
 /********* CLASSES ***********/
 
@@ -196,4 +195,20 @@ h6 {
 .bottom_of_article svg {
   width: 27px;
   height: 27px;
+}
+
+.above_infograph {
+  overflow: hidden;
+}
+
+.above_infograph_text {
+  width: 67%;
+  display: inline-block;
+}
+
+.above_infograph_side {
+  background-color: lightgrey;
+  width: 20%;
+  display: inline-block;
+
 }
