@@ -136,7 +136,12 @@ h1 {
 
 .top_of_article,
 .section p {
-  padding: 0 23% 20px 23%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.editors_pick_side {
+  background-color: grey;
 }
 /********* CLASSES ***********/
 
