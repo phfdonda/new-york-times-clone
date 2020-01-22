@@ -25,10 +25,10 @@ main {
 }
 
 header {
-  padding-top: 15px;
+  padding-top: 5px;
   width: 100%;
   position: fixed;
-  height: 43px;
+  height: 37px;
   top: 0;
   background-color: white;
   border-bottom: 1px solid #cccccc;
@@ -38,6 +38,7 @@ header {
   display: flex;
   align-items: center;
   margin-left: 20px;
+
 }
 
 .space_cosmos {
@@ -134,7 +135,7 @@ h1 {
 }
 
 .section {
-  margin: 0 0 0 47%;
+  margin: 0 0 0 20%;
 }
 
 .unlock_more {
@@ -148,7 +149,8 @@ h1 {
 /********* CLASSES ***********/
 
 .main_image {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .main_image_caption {
