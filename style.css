@@ -1,3 +1,24 @@
+/******** FONT FACES ********/
+
+@font-face {
+  font-family: "nyt-imperial";
+  src:
+    url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2") format('woff2'),
+    url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.e4d8bd522cfcbc36c1b2368baeb54c32.woff") format('woff'),
+    url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'nyt-franklin';
+  src:
+    url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-700.b44c88f09ca7ce914b836d4ae72891b8.woff2') format('woff2'),
+    url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-700.a192db310935d8a882832e2cc83f2119.woff') format('woff'),
+    url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-700.aaec3c198ea6e3efd97b2b19823bf861.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 /********* TAGS  *************/
 
 body {
@@ -28,7 +49,7 @@ header {
   height: 37px;
   top: 0;
   background-color: white;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
 }
 
 .left_header {
@@ -40,8 +61,8 @@ header {
 .space_cosmos {
   text-transform: uppercase;
   vertical-align: middle;
-  font-size: 0.9rem;
-  font-weight: 900;
+  font-weight: 700;
+  font-family: "nyt-franklin", sans-serif;
 }
 
 .right_header {
@@ -68,7 +89,7 @@ header i {
   float: right;
   height: 100%;
   min-width: 33%;
-  max-width: calc(50%-195px);
+  max-width: calc(50% - 195px);
 }
 
 .middle_container {
@@ -124,10 +145,14 @@ h1 {
   font-style: italic;
 }
 
+
+
 .section p {
   color: rgb(51, 51, 51);
   line-height: 1.5;
   font-size: 1.3rem;
+  font-family: nyt-imperial, serif;
+
 }
 
 .section {
