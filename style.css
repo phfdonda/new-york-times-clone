@@ -278,10 +278,6 @@ h6 {
   margin: 0 auto;
 }
 
-.content {
-  background-color: rgb(240, 240, 240);
-}
-
 .aside {
   position: relative;
   bottom: 115px;
@@ -342,8 +338,6 @@ title {
   line-height: 1.5;
 }
 
-
-
 .cell p {
   font-weight: 300;
   color: rgb(51, 51, 51);
@@ -368,4 +362,76 @@ title {
   margin-top: 15px;
   color: rgb(51, 51, 51);
   font-size: 0.8em;
+}
+
+.img_container {
+  margin: 0 auto;
+  width: 720px;
+}
+
+.secondary_image {
+  max-width: 100%;
+}
+
+.legal {
+  color: rgb(102, 102, 102);
+  font-size: 0.7rem;
+}
+
+.legal a {
+  font-size: 0.7rem;
+}
+
+.legal a:hover {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+}
+
+.legal a:link {
+  color: rgb(102, 102, 102);
+}
+
+.legal a:visited {
+  color: rgb(102, 102, 102);
+}
+
+.bottom_of_article button {
+  background-color: #567b95;
+  padding: 8px 70px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.related_news {
+  margin: 100px auto 0 auto;
+  background-color: grey;
+  width: 80%;
+  height: 800px;
+}
+
+.more_in {
+  margin: 0 auto;
+  background-color: yellow;
+  float: left;
+  height: 66%;
+  width: 70%;
+}
+
+.editors_picks_bottom {
+  margin: 0 auto;
+  background-color: blue;
+  float: left;
+  height: 34%;
+  width: 70%;
+}
+
+.most_popular {
+  float: right;
+  height: 100%;
+  width: 30%;
+  background-color: red;
 }
