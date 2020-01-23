@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: "nyt-imperial";
-  src:
-    url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.796334d8a16a55d6fa9e4cbf896ac9de.woff2")
+  src: url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.796334d8a16a55d6fa9e4cbf896ac9de.woff2")
       format("woff2"),
     url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.a9670f80042b4daa8a7f0a8e58cd856a.woff")
       format("woff"),
@@ -15,10 +14,13 @@
 }
 
 @font-face {
-  font-family: 'nyt-franklin';
-  src: url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.bc7be4c5d8cacb780f896c5cbe0c0d7f.woff2') format('woff2'),
-       url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.173315ff36fdf628bbfbabac0c03a76d.woff') format('woff'),
-       url('https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.d1bf0bccfda41b1a77ea392b7a26d4cf.ttf') format('truetype');
+  font-family: "nyt-franklin";
+  src: url("https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.bc7be4c5d8cacb780f896c5cbe0c0d7f.woff2")
+      format("woff2"),
+    url("https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.173315ff36fdf628bbfbabac0c03a76d.woff")
+      format("woff"),
+    url("https://g1.nyt.com/fonts/family/franklin/franklin-normal-300.d1bf0bccfda41b1a77ea392b7a26d4cf.ttf")
+      format("truetype");
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -288,12 +290,23 @@ title {
   font-weight: 700;
 }
 
+.infographic_container {
+  margin: 0 auto;
+  width: 945px;
+}
+
 .infographic {
   background-image: url(/resources/inflation-945.png);
   background-size: cover;
   margin: 0 auto;
-  width: 945px;
   height: 576px;
+  width: 100%;
+}
+
+.infographic_container h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 1.25rem;
 }
 
 .empty_row {
@@ -304,13 +317,19 @@ title {
   display: inline-block;
 }
 
+.infographic_container .caption {
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+
 .cell {
   margin: 0;
-  padding: 0 10px 0 0;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
   z-index: 100;
   height: 150px;
   display: inline-block;
-  width: 228px;
+  width: 233px;
   vertical-align: middle;
   font-family: nyt-franlin, sans-serif;
   font-size: 0.75rem;
@@ -319,10 +338,26 @@ title {
 
 .cell p {
   font-weight: 300;
+  color: rgb(51, 51, 51);
 }
 
 .cell p span {
   font-weight: 700;
   margin-right: 5px;
   font-size: 0.7rem;
+  color: black;
+}
+
+.line {
+  margin-top: 30px;
+  width: 80px;
+  height: 7px;
+  border-bottom: 1px solid black;
+  /* position: absolute; */
+}
+
+.infographic_container footer {
+  margin-top: 15px;
+  color: rgb(51, 51, 51);
+  font-size: 0.8em;
 }
