@@ -2,12 +2,28 @@
 
 @font-face {
   font-family: "nyt-imperial";
+  src: url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.796334d8a16a55d6fa9e4cbf896ac9de.woff2")
+      format("woff2"),
+    url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.a9670f80042b4daa8a7f0a8e58cd856a.woff")
+      format("woff"),
+    url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-700.b41c6e33cfd281d679e8586dfd1b7a9e.ttf")
+      format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "nyt-imperial";
   src: url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2")
       format("woff2"),
     url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.e4d8bd522cfcbc36c1b2368baeb54c32.woff")
       format("woff"),
     url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf")
       format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -23,6 +39,18 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "nyt-imperial";
+  src: url("https://g1.nyt.com/fonts/family/imperial/imperial-italic-700.40b02b2fba5d4f5436bd57340ad293f7.woff2")
+      format("woff2"),
+    url("https://g1.nyt.com/fonts/family/imperial/imperial-italic-700.7b30b8422b09c02ff3d388f0fa5c7723.woff")
+      format("woff"),
+    url("https://g1.nyt.com/fonts/family/imperial/imperial-italic-700.7a49706be9639a50e964794d84e2b03d.ttf")
+      format("truetype");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
 /********* TAGS  *************/
 
 body {
@@ -54,6 +82,7 @@ header {
   top: 0;
   background-color: white;
   border-bottom: 1px solid #ccc;
+  z-index: 100;
 }
 
 .left_header {
@@ -154,29 +183,33 @@ h1 {
   font-style: italic;
 }
 
-
-
 .content p {
   color: rgb(51, 51, 51);
   line-height: 1.5;
   font-size: 1.3rem;
+  font-weight: 400;
   font-family: nyt-imperial, serif;
-
 }
-
-
 
 .unlock_more {
   margin: 0 auto;
   width: 600px;
   height: 76px;
-  background-color:red;
   font-size: 0.6rem;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.unlock_more_text {
+  position: relative;
+  top: 17px;
+}
+
 /********* CLASSES ***********/
+main {
+  width: 90%;
+  margin: 0 auto;
+}
 
 .main_image {
   width: 80%;
@@ -222,41 +255,12 @@ h6 {
   height: 27px;
 }
 
-.above_infograph {
-  position: relative;
-  margin: 0 auto;
-}
-
-.above_infograph_text {
-  width: 650px;
-  position: relative;
-  margin: 0 auto;
-}
-
-.above_infograph_side {
-  position: relative;
-  bottom: 660px;
-  float: right;
-  /* background-color: lightgrey; */
-  width: 100%;
-  height: 400px;
-}
-
-.editors_pick_side {
-  position: absolute;
-  margin-left: 70%;
-  background-color: grey;
-  height: 100%;
-  width: 300px;
-}
-
 .container {
   margin: 0 auto;
-  background-color: grey;
 }
 
 .content {
-  background-color:yellow;
+  background-color: rgb(240, 240, 240);
 }
 
 .aside {
@@ -266,4 +270,36 @@ h6 {
   height: 321px;
   width: 210px;
   background-color: blue;
+}
+
+title {
+  font-family: "nyt-imperial", serif;
+  font-weight: 700;
+}
+
+.infographic {
+  background-image: url(/resources/inflation-945.png);
+  background-size: cover;
+  margin: 0 auto;
+  width: 945px;
+  height: 576px;
+}
+
+.empty_row {
+  z-index: 100;
+  background-color: rgba(255, 0 0, 120);
+  width: 100%;
+  height: 125px;
+  display: inline-block;
+}
+
+.cell {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+  z-index: 100;
+  height: 200px;
+  display: inline-block;
+  font-size: 14px;
+  width: 228px;
 }
