@@ -84,6 +84,11 @@ header i {
   font-size: 0.6rem;
 }
 
+.content_center {
+  width: 600px;
+  margin: 0 auto;
+}
+
 .right_container {
   display: inline-block;
   float: right;
@@ -147,7 +152,7 @@ h1 {
 
 
 
-.section p {
+.content p {
   color: rgb(51, 51, 51);
   line-height: 1.5;
   font-size: 1.3rem;
@@ -155,13 +160,13 @@ h1 {
 
 }
 
-.section {
-  margin: 0 0 0 20%;
-}
+
 
 .unlock_more {
-  width: 50%;
   margin: 0 auto;
+  width: 600px;
+  height: 76px;
+  background-color:red;
   font-size: 0.6rem;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
@@ -233,4 +238,22 @@ h6 {
   background-color: grey;
   float: right;
   width: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: grey;
+}
+
+.content {
+  background-color:yellow;
+}
+
+.aside {
+  position: relative;
+  bottom: 115px;
+  float: right;
+  height: 321px;
+  width: 210px;
+  background-color: blue;
 }
