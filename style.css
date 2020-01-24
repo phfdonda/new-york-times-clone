@@ -164,7 +164,6 @@ h1 {
 
 /********* CLASSES ***********/
 
-
 .main_image {
   width: 80%;
   margin: 0 auto;
@@ -385,9 +384,7 @@ title {
 
 .editors_picks_bottom {
   margin: 0 auto;
-  background-color: blue;
   float: left;
-  height: 34%;
   width: 69%;
 }
 
@@ -406,8 +403,8 @@ title {
 .most_popular a {
   font-size: inherit;
   text-decoration: inherit;
-  color: inherit;
-  font-family: nyt-cheltelnham, Georgia, 'Times New Roman', Times, serif;
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltelnham, Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
   margin: auto;
 }
