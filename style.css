@@ -356,11 +356,10 @@ title {
 
 .more_in {
   margin: 0 auto;
-  /* background-color: yellow; */
+  background-color: yellow;
   float: left;
-  height: 66%;
+  /* height: 66%; */
   width: 69%;
-
 }
 
 .more_in_title {
@@ -379,7 +378,6 @@ title {
 
 .more_in_row {
   width: 100%;
-  
 }
 
 .more_in_title:hover {
@@ -399,4 +397,35 @@ title {
   height: 100%;
   width: 28%;
   background-color: red;
+}
+
+.img_container_related {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.related_img {
+  max-width: 100%;
+  height: auto;
+}
+
+.more_in_cell {
+  /* margin: 2px; */
+  vertical-align: top;
+  background-color: coral;
+  display: inline-block;
+  width: 33%;
+}
+
+.more_in_cell h3 {
+  font-family: "nyt-cheltenham";
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.more_in_cell span {
+  font-size: 0.8rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: grey;
 }
