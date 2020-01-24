@@ -343,8 +343,8 @@ title {
 
 .related_news {
   margin: 100px auto 0 auto;
+  height: 1000px;
   width: 100%;
-
   background-color: sandybrown;
 }
 
@@ -384,7 +384,6 @@ title {
 .editors_picks_bottom {
   margin: 25px auto 0 auto;
   float: left;
-
 }
 
 .more_in,
@@ -451,4 +450,30 @@ title {
   font-size: 0.8rem;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: grey;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  height: 300px;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.nyt_navigation {
+  height: 600px;
+  /* background-color: red; */
+  width: 100%;
+}
+
+.column {
+  background-color: coral;
+  width: 16%;
+  display: inline-block;
+}
+
+.column a {
+  display: block;
 }
