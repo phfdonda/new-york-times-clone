@@ -8,16 +8,18 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+main {
+  width: 95%;
+  margin: 0 auto;
+  margin: 100px auto 0 auto;
+}
+
 header,
 .top_of_article,
 .unlock_more,
 .tile,
 .story_footer {
   font-family: Helvetica, Arial, sans-serif;
-}
-
-main {
-  margin: 100px auto 0 auto;
 }
 
 header {
@@ -161,10 +163,7 @@ h1 {
 }
 
 /********* CLASSES ***********/
-main {
-  width: 90%;
-  margin: 0 auto;
-}
+
 
 .main_image {
   width: 80%;
@@ -359,7 +358,7 @@ title {
   background-color: yellow;
   float: left;
   /* height: 66%; */
-  width: 69%;
+  width: 72%;
 }
 
 .more_in_title {
@@ -395,12 +394,12 @@ title {
 .most_popular {
   float: right;
   height: 100%;
-  width: 28%;
+  width: 26%;
   background-color: red;
 }
 
 .img_container_related {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -410,9 +409,9 @@ title {
 }
 
 .more_in_cell {
-  /* margin: 2px; */
+  margin-top: 20px;
   vertical-align: top;
-  background-color: coral;
+  /* background-color: coral; */
   display: inline-block;
   width: 33%;
 }
