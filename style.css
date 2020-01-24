@@ -355,7 +355,7 @@ title {
 
 .more_in {
   margin: 0 auto;
-  background-color: yellow;
+  /* background-color: yellow; */
   float: left;
   /* height: 66%; */
   width: 72%;
@@ -395,7 +395,30 @@ title {
   float: right;
   height: 100%;
   width: 26%;
-  background-color: red;
+  color: rgb(51, 51, 51);
+  /* background-color: red; */
+}
+
+.most_popular > * {
+  padding: 15px 0;
+}
+
+.most_popular a {
+  font-size: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  font-family: nyt-cheltelnham, Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  margin: auto;
+}
+
+.most_popular a:hover {
+  color: rgb(102, 102, 102);
+}
+
+.popular_line {
+  border-top: 1px solid rgb(136, 136, 136);
+  margin: 0;
 }
 
 .img_container_related {
