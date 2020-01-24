@@ -460,6 +460,7 @@ footer {
   height: 300px;
   margin: 0 auto;
   width: 95%;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
 }
 
 .nyt_navigation {
@@ -468,12 +469,55 @@ footer {
   width: 100%;
 }
 
+.nyt_navigation_logo {
+  margin-top: 40px;
+  height: 44px;
+  border-top: 3px double #ccc;
+  width: 100%;
+}
+
+.nyt_navigation_logo svg {
+  float:left;
+  width: 184px;
+  height: 100%;
+  }
+
+.nyt_navigation_logo a {
+  float: right;
+  font-size: 0.7rem;
+  color: rgb(86,123,149);
+  text-decoration: none;
+  padding-top: 22px;
+}
+
 .column {
-  background-color: coral;
   width: 16%;
   display: inline-block;
+  vertical-align: top;
+  line-height: 2;
 }
 
 .column a {
   display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+
+}
+
+.column a:hover {
+  text-decoration: underline;
+}
+
+.column .small_title {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: rgb(51, 51, 51);
+}
+
+.last_column {
+  padding-left: 15px;
+  border-left: 1px solid #ccc;
 }
