@@ -349,7 +349,6 @@ title {
   margin: 100px auto 0 auto;
   height: 1000px;
   width: 100%;
-  background-color: sandybrown;
 }
 
 .more_in,
@@ -438,7 +437,6 @@ title {
 .more_in_cell {
   margin-top: 20px;
   vertical-align: top;
-  /* background-color: coral; */
   display: inline-block;
   width: 33%;
 }
@@ -468,9 +466,11 @@ footer {
 }
 
 .nyt_navigation {
-  height: 600px;
+  padding-bottom: 25px;
+  /* height: 600px; */
   /* background-color: red; */
   width: 100%;
+  border-bottom: 1px solid #ccc;
 }
 
 .nyt_navigation_logo {
@@ -481,15 +481,15 @@ footer {
 }
 
 .nyt_navigation_logo svg {
-  float:left;
+  float: left;
   width: 184px;
   height: 100%;
-  }
+}
 
 .nyt_navigation_logo a {
   float: right;
   font-size: 0.7rem;
-  color: rgb(86,123,149);
+  color: rgb(86, 123, 149);
   text-decoration: none;
   padding-top: 22px;
 }
@@ -508,7 +508,6 @@ footer {
   font-weight: 400;
   font-size: 14px;
   color: black;
-
 }
 
 .column a:hover {
@@ -524,4 +523,44 @@ footer {
 .last_column {
   padding-left: 15px;
   border-left: 1px solid #ccc;
+}
+
+.column .line {
+  display: relative;
+  margin: 5px 0;
+  height: 1px;
+  width: 60%;
+  border-bottom: 1px solid #ccc;
+  /* position: absolute; */
+}
+
+.bold_links:link {
+  font-weight: 700;
+  font-size: 1rem;
+  padding-bottom: 5px;
+  /* vertical-align: top; */
+}
+
+.bold_links svg {
+  height: 13px;
+  padding-right: 5px;
+}
+
+.last_column .small_link:link {
+  font-size: 0.7rem;
+}
+
+.footer_legal {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.footer_legal a {
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.footer_legal .legal {
+  font-size: 0.6rem;
 }
