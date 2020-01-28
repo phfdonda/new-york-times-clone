@@ -151,16 +151,26 @@ li {
   background-color: white;
 }
 
+.li_white:hover {
+  border: 1px solid white;
+}
+
 .li i {
   color: black;
   font-size: 0.8rem;
+}
+
+#bookmark {
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  top: 50px;
 }
 
 .top_of_article li svg {
   width: 15px;
   height: 15px;
   padding: 5px;
-
 }
 
 li:hover {
