@@ -144,11 +144,23 @@ li {
   border-radius: 50%;
   background-color: #eee;
   border: 1px solid white;
+  margin-right: 10px;
+}
+
+.li_white {
+  background-color: white;
+}
+
+.li i {
+  color: black;
+  font-size: 0.8rem;
 }
 
 .top_of_article li svg {
-  width: 27px;
-  height: 27px;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+
 }
 
 li:hover {
