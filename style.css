@@ -60,6 +60,30 @@ iframe {
   margin-right: 20px;
 }
 
+@media (min-width: 1080px) {
+  #user_btn{
+    display: none;
+  }
+
+}
+
+#user_btn {
+  /* width: 16px;
+  height: 16px; */
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+#user_btn i {
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+#user_btn:hover {
+  background-color: #ccc;
+}
+
 header svg {
   left: calc(50% - 50px);
   height: 26.5px;
@@ -315,6 +339,13 @@ h6 {
 }
 
 @media (max-width: 1080px) {
+  .subscribe,
+  .log_in,
+  .space_cosmos,
+  .loup {
+    display: none;
+  }
+
   .aside img {
     display: none;
   }
@@ -589,6 +620,15 @@ title {
   }
 }
 
+@media (max-width: 720px) {
+  .most_popular {
+    display: none;
+  }
+
+  .more_in, .editors_picks_bottom {
+    width: 100%;
+  }
+}
 .more_in_cell h3 {
   font-family: "nyt-cheltenham";
   font-weight: 600;
