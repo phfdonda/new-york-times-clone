@@ -60,13 +60,6 @@ iframe {
   margin-right: 20px;
 }
 
-@media (min-width: 1080px) {
-  #user_btn{
-    display: none;
-  }
-
-}
-
 #user_btn {
   /* width: 16px;
   height: 16px; */
@@ -275,23 +268,7 @@ h6 {
   width: 30%;
 }
 
-@media (max-width: 1200px) {
-  .aside_container {
-    width: 20%;
-  }
-}
 
-@media (min-width: 1200px) {
-  .aside_container {
-    width: 22%;
-  }
-}
-
-@media (min-width: 1500px) {
-  .aside_container {
-    width: 25%;
-  }
-}
 
 .aside {
   position: relative;
@@ -338,43 +315,7 @@ h6 {
   background-color: blue;
 }
 
-@media (max-width: 1080px) {
-  .subscribe,
-  .log_in,
-  .space_cosmos,
-  .loup {
-    display: none;
-  }
 
-  .aside img {
-    display: none;
-  }
-
-  .aside {
-    width: 120px;
-  }
-
-  .aside_container {
-    width: 15%;
-  }
-
-  .aside h3 {
-    font-weight: 900;
-    font-size: 0.9rem;
-  }
-}
-
-@media (min-width: 1080px) {
-  .small_res_line {
-    display: none;
-  }
-}
-
-@media (max-width: 1000px) {
-  .aside {
-    display: none;
-  }
-}
 .small_res_line {
   margin-bottom: 15px;
   border-bottom: 1px solid #ccc;
@@ -600,35 +541,6 @@ title {
   width: 33%;
 }
 
-@media (max-width: 1200px) {
-  .big_res_cell {
-    display: none;
-  }
-
-  .more_in_cell {
-    width: 49%;
-  }
-
-  .more_in,
-  .editors_picks_bottom {
-    width: 67%;
-  }
-
-  .most_popular {
-    width: 31%;
-    /* background-color: red; */
-  }
-}
-
-@media (max-width: 720px) {
-  .most_popular {
-    display: none;
-  }
-
-  .more_in, .editors_picks_bottom {
-    width: 100%;
-  }
-}
 .more_in_cell h3 {
   font-family: "nyt-cheltenham";
   font-weight: 600;
@@ -755,3 +667,105 @@ footer {
 .footer_legal .legal {
   font-size: 0.7rem;
 }
+
+
+@media (max-width: 1200px) {
+  .big_res_cell {
+    display: none;
+  }
+
+  .more_in_cell {
+    width: 49%;
+  }
+
+  .more_in,
+  .editors_picks_bottom {
+    width: 67%;
+  }
+
+  .most_popular {
+    width: 31%;
+    /* background-color: red; */
+  }
+}
+
+@media (max-width: 720px) {
+  .most_popular {
+    display: none;
+  }
+
+  .more_in, .editors_picks_bottom {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .aside_container {
+    width: 20%;
+  }
+
+  .column {
+    display: none;
+  }
+
+  .small_title {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aside_container {
+    width: 22%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .aside_container {
+    width: 25%;
+  }
+}
+
+
+@media (min-width: 1080px) {
+  .small_res_line {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .aside {
+    display: none;
+  }
+}
+
+@media (min-width: 1080px) {
+  #user_btn{
+    display: none;
+  }
+}
+
+  @media (max-width: 1080px) {
+    .subscribe,
+    .log_in,
+    .space_cosmos,
+    .loup {
+      display: none;
+    }
+
+    .aside img {
+      display: none;
+    }
+
+    .aside {
+      width: 120px;
+    }
+
+    .aside_container {
+      width: 15%;
+    }
+
+    .aside h3 {
+      font-weight: 900;
+      font-size: 0.9rem;
+    }
+  }
