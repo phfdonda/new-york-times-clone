@@ -251,9 +251,21 @@ h6 {
   width: 30%;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   .aside_container {
     width: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .aside_container {
+    width: 22%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .aside_container {
+    width: 25%;
   }
 }
 
@@ -555,6 +567,26 @@ title {
   vertical-align: top;
   display: inline-block;
   width: 33%;
+}
+
+@media (max-width: 1200px) {
+  .big_res_cell {
+    display: none;
+  }
+
+  .more_in_cell {
+    width: 49%;
+  }
+
+  .more_in,
+  .editors_picks_bottom {
+    width: 67%;
+  }
+
+  .most_popular {
+    width: 31%;
+    /* background-color: red; */
+  }
 }
 
 .more_in_cell h3 {
