@@ -141,21 +141,37 @@ h1 {
   font-style: italic;
 }
 
-.content p {
+.content .paragraph {
   color: rgb(51, 51, 51);
   line-height: 1.5;
   font-size: 1.3rem;
   font-weight: 400;
   font-family: nyt-imperial, serif;
+  margin: 20px auto 0 auto;
 }
 
 .unlock_more {
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   width: 600px;
   height: 76px;
   font-size: 0.6rem;
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+.unlock_more .line {
+  margin-top: 20px;
+  border-color: #ccc;
+}
+
+.unlock_more h2 {
+  padding: 2px;
+  margin: 2px;
+}
+
+.unlock_more_text h2 a {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
 }
 
 .unlock_more_text {
@@ -182,7 +198,6 @@ article > h2 {
   color: rgb(102, 102, 102);
   line-height: 1.4;
 }
-
 
 .author {
   color: rgb(136, 136, 136);
@@ -220,12 +235,53 @@ h6 {
   margin: 0 auto;
 }
 
+.aside_container {
+  float: right;
+  width: 30%;
+}
+
 .aside {
   position: relative;
   bottom: 115px;
-  float: right;
+  float: left;
   height: 321px;
   width: 210px;
+}
+
+.aside h2 {
+  font-size: 0.9rem;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 900;
+  padding-bottom: 12px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.aside a {
+  display: table;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.aside a:hover {
+  text-decoration: underline;
+}
+
+.aside h3 {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.aside img {
+  float: left;
+  /* display: inline-block; */
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
   background-color: blue;
 }
 
@@ -248,7 +304,7 @@ title {
 }
 
 .infographic_container h5 {
-  margin: 0 0 10px 0;
+  margin: 30px 0 10px 0;
   padding: 0;
   font-size: 1.25rem;
 }
@@ -508,7 +564,6 @@ footer {
   line-height: 1.8;
 }
 
-
 .column a {
   display: block;
   text-transform: capitalize;
@@ -569,7 +624,7 @@ footer {
 .footer_legal a {
   padding: 0 8px;
   text-decoration: none;
-  color: rgb(102, 102, 102)
+  color: rgb(102, 102, 102);
 }
 
 .footer_legal .legal {
