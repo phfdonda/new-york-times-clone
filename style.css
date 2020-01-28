@@ -180,10 +180,13 @@ article > h2 {
 
 .caption {
   color: rgb(102, 102, 102);
+  line-height: 1.4;
 }
+
 
 .author {
   color: rgb(136, 136, 136);
+  font-size: 0.9rem;
 }
 
 .main_image img {
@@ -232,7 +235,7 @@ title {
 }
 
 .infographic_container {
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   width: 945px;
 }
 
@@ -303,9 +306,13 @@ title {
   font-size: 0.8em;
 }
 
+.video_container {
+  margin: 50px auto;
+}
+
 .img_container {
-  margin: 0 auto;
-  width: 720px;
+  margin: 50px auto;
+  width: 600px;
 }
 
 .secondary_image {
@@ -459,14 +466,14 @@ title {
 }
 
 footer {
-  height: 300px;
+  /* height: 300px; */
   margin: 0 auto;
   width: 95%;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
 }
 
 .nyt_navigation {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   /* height: 600px; */
   /* background-color: red; */
   width: 100%;
@@ -498,8 +505,9 @@ footer {
   width: 16%;
   display: inline-block;
   vertical-align: top;
-  line-height: 2;
+  line-height: 1.8;
 }
+
 
 .column a {
   display: block;
@@ -518,10 +526,12 @@ footer {
   text-transform: uppercase;
   font-size: 0.8rem;
   color: rgb(51, 51, 51);
+  margin-bottom: 5px;
 }
 
 .last_column {
   padding-left: 15px;
+  padding-bottom: 25px;
   border-left: 1px solid #ccc;
 }
 
@@ -552,15 +562,16 @@ footer {
 
 .footer_legal {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   padding-top: 10px;
 }
 
 .footer_legal a {
-  padding: 0 5px;
+  padding: 0 8px;
   text-decoration: none;
+  color: rgb(102, 102, 102)
 }
 
 .footer_legal .legal {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
