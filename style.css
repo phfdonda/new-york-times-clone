@@ -85,12 +85,6 @@ article > h2 {
   display: none;
 }
 
-time {
-  line-height: 40px;
-  font-size: 0.8em;
-  color: grey;
-}
-
 h6 {
   margin: 40px 0 0 0;
 }
@@ -178,7 +172,6 @@ title {
   font-size: 38px;
   position: relative;
   top: 10px;
-
 }
 
 .comment_wrapper {
@@ -191,8 +184,6 @@ title {
   right: 8px;
   font-size: 0.75rem;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
-
-
 }
 
 .li_white:hover {
@@ -202,6 +193,19 @@ title {
 .date_and_actions {
   padding-top: 20px;
   height: 37px;
+}
+
+.action_wrapper {
+  float: right;
+  position: relative;
+  bottom: 9px;
+}
+
+.time_wrapper {
+  display: inline-block;
+  line-height: 40px;
+  font-size: 0.8em;
+  color: grey;
 }
 
 .content .paragraph {
