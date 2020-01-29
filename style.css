@@ -26,7 +26,6 @@ header {
 }
 
 footer {
-  /* height: 300px; */
   margin: 0 auto;
   width: 95%;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
@@ -175,8 +174,25 @@ title {
 }
 
 .material-icons-outlined {
-  color: rgb(136, 136, 136);
-  font-size: 0.8rem;
+  color: #ccc;
+  font-size: 38px;
+  position: relative;
+  top: 10px;
+
+}
+
+.comment_wrapper {
+  position: relative;
+}
+
+.n_comments {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 0.75rem;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+
+
 }
 
 .li_white:hover {
@@ -249,11 +265,6 @@ title {
 
 .main_image img {
   max-width: 100%;
-}
-
-.bottom_of_article svg {
-  width: 27px;
-  height: 27px;
 }
 
 .container {
@@ -456,8 +467,6 @@ title {
   height: 100%;
   width: 26%;
   color: rgb(51, 51, 51);
-
-  /* background-color: red; */
 }
 
 .most_popular > * {
@@ -588,7 +597,7 @@ title {
   /* vertical-align: top; */
 }
 
-.bold_links svg {
+.bold_link_svg {
   height: 13px;
   padding-right: 5px;
 }
@@ -613,8 +622,6 @@ title {
 .footer_text {
   display: table-cell;
   vertical-align: middle;
-
-  /* margin: 0 auto; */
 }
 
 .text_wrapper {
@@ -668,10 +675,16 @@ title {
   font-size: 0.7rem;
 }
 
-.top_of_article li svg {
+.symbol {
   width: 15px;
   height: 15px;
   padding: 5px;
+}
+
+.facebook {
+  position: relative;
+  right: 2px;
+  top: 1px;
 }
 
 .unlock_more_text h2 a {
@@ -711,6 +724,7 @@ title {
   color: black;
 }
 
+
 /**** IDs **********/
 
 #user_btn {
@@ -733,6 +747,7 @@ title {
   height: 25px;
   top: 50px;
 }
+
 
 /**** MEDIA QUERIES ****/
 
