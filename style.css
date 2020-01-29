@@ -520,11 +520,6 @@ title {
 }
 
 .nyt_navigation {
-  /* background-color: red; */
-
-  /* height: 600px; */
-
-  /* padding-bottom: 10px; */
   border-bottom: 1px solid #ccc;
   width: 100%;
 }
@@ -584,7 +579,6 @@ title {
 }
 
 .column .line {
-  /* position: absolute; */
   border-bottom: 1px solid #ccc;
   display: relative;
   height: 1px;
@@ -593,7 +587,6 @@ title {
 }
 
 .bold_links:link {
-  /* vertical-align: top; */
   font-size: 1rem;
   font-weight: 700;
   padding-bottom: 5px;
@@ -738,8 +731,6 @@ title {
   text-decoration: none;
   text-transform: uppercase;
   top: 60px;
-
-  /* display: none; */
 }
 
 #user_btn {
