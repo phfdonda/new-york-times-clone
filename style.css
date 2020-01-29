@@ -884,26 +884,25 @@ title {
   .right_container {
     display: none;
   }
-}
 
-header {
-  position: relative;
-}
+  header {
+    position: relative;
+  }
 
-.aside img {
-  display: none;
-}
+  .aside img {
+    display: none;
+  }
 
-.aside {
-  width: 120px;
-}
+  .aside {
+    width: 120px;
+  }
 
-.aside_container {
-  width: 15%;
-}
+  .aside_container {
+    width: 15%;
+  }
 
-.aside h3 {
-  font-weight: 900;
-  font-size: 0.9rem;
-}
+  .aside h3 {
+    font-weight: 900;
+    font-size: 0.9rem;
+  }
 }
