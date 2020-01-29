@@ -1,44 +1,44 @@
 /********* TAGS  *************/
 
 body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 main {
-  width: 95%;
   margin: 0 auto;
   margin: 100px auto 0 auto;
+  width: 95%;
 }
 
 header {
-  padding-top: 5px;
-  width: 100%;
-  position: fixed;
-  height: 37px;
-  top: 0;
   background-color: white;
   border-bottom: 1px solid #ccc;
+  height: 37px;
+  padding-top: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 100;
 }
 
 footer {
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
   margin: 0 auto;
   width: 95%;
-  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
 }
 
 iframe {
-  width: 600px;
   height: 335px;
+  width: 600px;
 }
 
 header svg {
-  left: calc(50% - 50px);
   height: 26.5px;
+  left: calc(50% - 50px);
 }
 
 header button {
@@ -51,29 +51,29 @@ header i {
 }
 
 h1 {
-  margin-top: 70px;
-  line-height: 1.5;
   font-size: 2.1rem;
-  padding-left: 30%;
   font-style: italic;
+  line-height: 1.5;
+  margin-top: 70px;
+  padding-left: 30%;
 }
 
 ul {
-  margin: 0;
-  text-align: right;
   float: right;
   height: 27px;
   list-style-type: none;
+  margin: 0;
+  text-align: right;
 }
 
 li {
-  display: inline-block;
-  width: 27px;
-  height: 27px;
-  border-radius: 50%;
   background-color: #eee;
+  border-radius: 50%;
   border: 1px solid white;
+  display: inline-block;
+  height: 27px;
   margin-right: 10px;
+  width: 27px;
 }
 
 li:hover {
@@ -93,9 +93,9 @@ a:hover,
 a:link,
 a:visited,
 h6 {
-  font-size: 0.9rem;
   color: black;
   color: rgb(51, 51, 51);
+  font-size: 0.9rem;
 }
 
 title {
@@ -106,13 +106,13 @@ title {
 /********* CLASSES ***********/
 
 .content_center {
-  width: 600px;
   margin: 0 auto;
+  width: 600px;
 }
 
 .left_header {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-left: 20px;
 }
 
@@ -121,10 +121,10 @@ title {
 }
 
 .small_title {
-  font-weight: 700;
   font-family: "nyt-franklin", sans-serif;
-  vertical-align: middle;
   font-size: 1.2rem;
+  font-weight: 700;
+  vertical-align: middle;
 }
 
 .right_header {
@@ -135,32 +135,32 @@ title {
 .right_container {
   float: right;
   height: 100%;
-  min-width: 33%;
   max-width: calc(50% - 195px);
+  min-width: 33%;
 }
 
 .middle_container {
   display: inline-block;
-  min-width: 195px;
   height: 100%;
+  min-width: 195px;
 }
 
 .left_container {
-  height: 100%;
   float: left;
+  height: 100%;
   width: calc(50% - 79.5px);
 }
 
 .blue_btn {
-  height: 32px;
-  padding: 12px 12px 12px 12px;
   background-color: #567b95;
-  color: white;
-  border: none;
   border-radius: 3px;
-  line-height: 5px;
-  text-transform: uppercase;
+  border: none;
+  color: white;
   font-size: 0.7em;
+  height: 32px;
+  line-height: 5px;
+  padding: 12px 12px 12px 12px;
+  text-transform: uppercase;
 }
 
 .li_white {
@@ -179,11 +179,11 @@ title {
 }
 
 .n_comments {
-  position: absolute;
   bottom: 8px;
-  right: 8px;
-  font-size: 0.75rem;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  position: absolute;
+  right: 8px;
 }
 
 .li_white:hover {
@@ -191,56 +191,56 @@ title {
 }
 
 .date_and_actions {
-  padding-top: 20px;
   height: 37px;
+  padding-top: 20px;
 }
 
 .action_wrapper {
+  bottom: 8px;
   float: right;
   position: relative;
-  bottom: 9px;
 }
 
 .time_wrapper {
-  display: inline-block;
-  line-height: 40px;
-  font-size: 0.8em;
   color: grey;
+  display: inline-block;
+  font-size: 0.8em;
+  line-height: 40px;
 }
 
 .content .paragraph {
   color: rgb(51, 51, 51);
-  line-height: 1.5;
+  font-family: nyt-imperial, serif;
   font-size: 1.3rem;
   font-weight: 400;
-  font-family: nyt-imperial, serif;
+  line-height: 1.5;
   margin: 20px auto 0 auto;
 }
 
 .unlock_more {
-  margin: 0 auto 30px auto;
-  width: 600px;
-  height: 76px;
-  font-size: 0.6rem;
-  text-align: center;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.6rem;
+  height: 76px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  width: 600px;
 }
 
 .line {
+  border-bottom: 1px solid black;
+  height: 7px;
   margin-top: 30px;
   width: 80px;
-  height: 7px;
-  border-bottom: 1px solid black;
 }
 
 .unlock_more .line {
-  margin-top: 20px;
   border-color: #ccc;
+  margin-top: 20px;
 }
 
 .unlock_more h2 {
-  padding: 2px;
   margin: 2px;
+  padding: 2px;
 }
 
 .unlock_more_text {
@@ -249,8 +249,8 @@ title {
 }
 
 .main_image {
-  width: 80%;
   margin: 0 auto;
+  width: 80%;
 }
 
 .main_image_caption {
@@ -281,20 +281,20 @@ title {
 }
 
 .aside {
-  position: relative;
   bottom: 115px;
   float: left;
+  position: relative;
   width: 210px;
 }
 
 .aside h2 {
-  font-size: 0.8rem;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  line-height: 1.2;
-  font-weight: 900;
-  padding-bottom: 12px;
-  margin-bottom: 15px;
   border-bottom: 1px solid #ccc;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
 }
 
 .aside a {
@@ -305,26 +305,26 @@ title {
 
 .aside h3 {
   display: table-cell;
-  vertical-align: middle;
-  font-size: 14px;
-  line-height: 1.3;
-  font-weight: 500;
-  margin-bottom: 0;
   font-family: nyt-cheltenham-small, Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 0;
+  vertical-align: middle;
 }
 
 .aside img {
+  background-color: blue;
   float: left;
-  width: 75px;
   height: 75px;
   margin-right: 10px;
-  background-color: blue;
+  width: 75px;
 }
 
 .small_res_line {
-  margin-bottom: 15px;
   border-bottom: 1px solid #ccc;
   height: 1px;
+  margin-bottom: 15px;
 }
 
 .infographic_container {
@@ -335,23 +335,23 @@ title {
 .infographic {
   background-image: url(/resources/inflation-945.png);
   background-size: cover;
-  margin: 0 auto;
   height: 576px;
+  margin: 0 auto;
   width: 100%;
 }
 
 .infographic_container h5 {
+  font-size: 1.25rem;
   margin: 30px 0 10px 0;
   padding: 0;
-  font-size: 1.25rem;
 }
 
 .empty_row {
-  z-index: 100;
   background-color: rgba(255, 0 0, 120);
-  width: 100%;
-  height: 135px;
   display: inline-block;
+  height: 135px;
+  width: 100%;
+  z-index: 100;
 }
 
 .infographic_container .caption {
@@ -360,28 +360,28 @@ title {
 }
 
 .cell {
-  margin: 0;
-  padding: 0 0 0 10px;
   box-sizing: border-box;
-  z-index: 100;
-  height: 150px;
   display: inline-block;
-  width: 233px;
-  vertical-align: middle;
   font-family: nyt-franlin, sans-serif;
   font-size: 0.75rem;
+  height: 150px;
   line-height: 1.5;
+  margin: 0;
+  padding: 0 0 0 10px;
+  vertical-align: middle;
+  width: 233px;
+  z-index: 100;
 }
 
 .cell p {
-  font-weight: 300;
   color: rgb(51, 51, 51);
+  font-weight: 300;
 }
 
 .infographic_container footer {
-  margin-top: 15px;
   color: rgb(51, 51, 51);
   font-size: 0.8em;
+  margin-top: 15px;
 }
 
 .video_container {
@@ -408,18 +408,18 @@ title {
 
 .bottom_of_article button {
   background-color: #567b95;
-  padding: 8px 70px;
-  border: none;
   border-radius: 5px;
+  border: none;
   color: white;
-  font-weight: 600;
-  text-transform: uppercase;
   font-size: 0.9rem;
+  font-weight: 600;
+  padding: 8px 70px;
+  text-transform: uppercase;
 }
 
 .related_news {
-  margin: 100px auto 0 auto;
   height: 1000px;
+  margin: 100px auto 0 auto;
   width: 100%;
 }
 
@@ -430,22 +430,22 @@ title {
 }
 
 .more_in {
-  margin: 0 auto;
   float: left;
+  margin: 0 auto;
 }
 
 .related_news_title {
-  width: 100%;
   height: 40px;
   line-height: 400%;
+  width: 100%;
 }
 
 .related_news_title a {
-  font-size: 0.9rem;
-  font-kerning: auto;
-  text-decoration: none;
   color: black;
+  font-kerning: auto;
+  font-size: 0.9rem;
   font-weight: 900;
+  text-decoration: none;
 }
 
 .more_in_row {
@@ -457,8 +457,8 @@ title {
 }
 
 .editors_picks_bottom {
-  margin: 25px auto 0 auto;
   float: left;
+  margin: 25px auto 0 auto;
 }
 
 .more_in,
@@ -467,10 +467,10 @@ title {
 }
 
 .most_popular {
+  color: rgb(51, 51, 51);
   float: right;
   height: 100%;
   width: 26%;
-  color: rgb(51, 51, 51);
 }
 
 .most_popular > * {
@@ -478,12 +478,12 @@ title {
 }
 
 .most_popular a {
-  font-size: inherit;
-  text-decoration: inherit;
   color: rgb(18, 18, 18);
   font-family: nyt-cheltelnham, Georgia, "Times New Roman", Times, serif;
+  font-size: inherit;
   font-weight: 400;
   margin: auto;
+  text-decoration: inherit;
 }
 
 .popular_line {
@@ -492,26 +492,26 @@ title {
 }
 
 .img_container_related {
-  width: 100%;
   margin: 0 auto;
+  width: 100%;
 }
 
 .related_img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .more_in_cell {
+  display: inline-block;
   margin-top: 20px;
   vertical-align: top;
-  display: inline-block;
   width: 33%;
 }
 
 .more_in_cell h3 {
   font-family: nyt-cheltenham, Georgia, "Times New Roman", Times, serif;
-  font-weight: 600;
   font-size: 1.2rem;
+  font-weight: 600;
   margin: 10px 0;
 }
 
@@ -520,50 +520,50 @@ title {
 }
 
 .nyt_navigation {
-  /* padding-bottom: 10px; */
+  /* background-color: red; */
 
   /* height: 600px; */
 
-  /* background-color: red; */
-  width: 100%;
+  /* padding-bottom: 10px; */
   border-bottom: 1px solid #ccc;
+  width: 100%;
 }
 
 .nyt_navigation_logo {
-  margin-top: 40px;
-  height: 44px;
   border-top: 3px double #ccc;
+  height: 44px;
+  margin-top: 40px;
   width: 100%;
 }
 
 .nyt_navigation_logo svg {
   float: left;
-  width: 184px;
   height: 100%;
+  width: 184px;
 }
 
 .nyt_navigation_logo a {
+  color: rgb(86, 123, 149);
   float: right;
   font-size: 0.7rem;
-  color: rgb(86, 123, 149);
-  text-decoration: none;
   padding-top: 22px;
+  text-decoration: none;
 }
 
 .column {
-  width: 16%;
   display: inline-block;
-  vertical-align: top;
   line-height: 1.8;
+  vertical-align: top;
+  width: 16%;
 }
 
 .column a {
-  display: block;
-  text-transform: capitalize;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 14px;
   color: black;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .title_small_res {
@@ -571,34 +571,32 @@ title {
 }
 
 .column .small_title {
-  text-transform: uppercase;
-  font-size: 0.8rem;
   color: rgb(51, 51, 51);
+  font-size: 0.8rem;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
 
 .last_column {
-  padding-left: 15px;
-  padding-bottom: 25px;
   border-left: 1px solid #ccc;
+  padding-bottom: 25px;
+  padding-left: 15px;
 }
 
 .column .line {
-  display: relative;
-  margin: 5px 0;
-  height: 1px;
-  width: 60%;
-  border-bottom: 1px solid #ccc;
-
   /* position: absolute; */
+  border-bottom: 1px solid #ccc;
+  display: relative;
+  height: 1px;
+  margin: 5px 0;
+  width: 60%;
 }
 
 .bold_links:link {
-  font-weight: 700;
-  font-size: 1rem;
-  padding-bottom: 5px;
-
   /* vertical-align: top; */
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 5px;
 }
 
 .bold_link_svg {
@@ -611,16 +609,16 @@ title {
 }
 
 .footer_ad {
+  background-color: #333;
+  bottom: 0;
+  color: white;
   display: table;
-  width: 100%;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  height: 55px;
   margin: 0;
   padding: 0;
   position: fixed;
-  bottom: 0;
-  height: 55px;
-  color: white;
-  background-color: #333;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  width: 100%;
 }
 
 .footer_text {
@@ -629,8 +627,8 @@ title {
 }
 
 .text_wrapper {
-  text-align: center;
   margin: 0 auto;
+  text-align: center;
   width: 55%;
 }
 
@@ -641,38 +639,38 @@ title {
 }
 
 .view_offer {
-  display: inline-block;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.7rem;
-  position: relative;
   bottom: 3px;
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
 }
 
 .view_icon {
-  margin-left: 50px;
   display: inline-block;
-  line-height: 1.5rem;
   font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-left: 50px;
 }
 
 .footer_text_right {
   float: right;
-  line-height: 1.5rem;
   height: 25px;
+  line-height: 1.5rem;
 }
 
 .footer_legal {
-  text-align: center;
+  margin-bottom: 40px;
   padding-bottom: 30px;
   padding-top: 10px;
-  margin-bottom: 40px;
+  text-align: center;
 }
 
 .footer_legal a {
+  color: rgb(102, 102, 102);
   padding: 0 8px;
   text-decoration: none;
-  color: rgb(102, 102, 102);
 }
 
 .footer_legal .legal {
@@ -680,9 +678,9 @@ title {
 }
 
 .symbol {
-  width: 15px;
   height: 15px;
   padding: 5px;
+  width: 15px;
 }
 
 .facebook {
@@ -722,18 +720,32 @@ title {
 }
 
 .cell p span {
+  color: black;
+  font-size: 0.7rem;
   font-weight: 700;
   margin-right: 5px;
-  font-size: 0.7rem;
-  color: black;
 }
 
-
 /**** IDs **********/
+
+#subscribe_text {
+  color: rgb(50, 104, 145);
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 500;
+  position: absolute;
+  right: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 60px;
+
+  /* display: none; */
+}
 
 #user_btn {
   background-color: white;
   color: black;
+  float: right;
 }
 
 #user_btn i {
@@ -746,12 +758,11 @@ title {
 }
 
 #bookmark {
-  padding: 0;
-  width: 25px;
   height: 25px;
+  padding: 0;
   top: 50px;
+  width: 25px;
 }
-
 
 /**** MEDIA QUERIES ****/
 
@@ -799,7 +810,8 @@ title {
 }
 
 @media (max-width: 720px) {
-  .most_popular {
+  .most_popular,
+  .view_icon {
     display: none;
   }
 
@@ -858,7 +870,8 @@ title {
 }
 
 @media (min-width: 1080px) {
-  #user_btn {
+  #user_btn,
+  #subscribe_text {
     display: none;
   }
 }
@@ -867,24 +880,30 @@ title {
   .subscribe,
   .log_in,
   .space_cosmos,
-  .loup {
+  .loup,
+  .right_container {
     display: none;
   }
+}
 
-  .aside img {
-    display: none;
-  }
+header {
+  position: relative;
+}
 
-  .aside {
-    width: 120px;
-  }
+.aside img {
+  display: none;
+}
 
-  .aside_container {
-    width: 15%;
-  }
+.aside {
+  width: 120px;
+}
 
-  .aside h3 {
-    font-weight: 900;
-    font-size: 0.9rem;
-  }
+.aside_container {
+  width: 15%;
+}
+
+.aside h3 {
+  font-weight: 900;
+  font-size: 0.9rem;
+}
 }
