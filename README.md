@@ -1,10 +1,10 @@
 # Positioning and Floating Elements 
 ##  Building an HTML document that matches the appearance of New York Times page as part of Microverse program.
 
-![Screenshot of the project](/Display-and-Inputting-Data.png?raw=true "Screenshot of the project")
+![Screenshot of the project](screenshot.png)
 ### Built With
     html
-    css 
+    css (floats and media queries)
 
 ### Check it online!
 [Live preview](https://phfdonda.github.io/new-york-times-clone/)
