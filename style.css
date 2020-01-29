@@ -38,6 +38,43 @@ iframe {
   height: 335px;
 }
 
+header svg {
+  left: calc(50% - 50px);
+  height: 26.5px;
+}
+
+header button {
+  background-color: inherit;
+  border: none;
+}
+
+header i {
+  font-size: 0.6rem;
+}
+
+ul {
+  margin: 0;
+  text-align: right;
+  float: right;
+  height: 27px;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #eee;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+.content_center {
+  width: 600px;
+  margin: 0 auto;
+}
+
 .left_header {
   display: flex;
   align-items: center;
@@ -77,25 +114,6 @@ iframe {
   background-color: #ccc;
 }
 
-header svg {
-  left: calc(50% - 50px);
-  height: 26.5px;
-}
-
-header button {
-  background-color: inherit;
-  border: none;
-}
-
-header i {
-  font-size: 0.6rem;
-}
-
-.content_center {
-  width: 600px;
-  margin: 0 auto;
-}
-
 .right_container {
   display: inline-block;
   float: right;
@@ -117,6 +135,7 @@ header i {
   width: calc(50% - 79.5px);
 }
 
+/* TODO: SEPARATE CLASS AND TAG */
 .right_header button {
   height: 32px;
   padding: 12px 12px 12px 12px;
@@ -127,24 +146,6 @@ header i {
   line-height: 5px;
   text-transform: uppercase;
   font-size: 0.7em;
-}
-
-ul {
-  margin: 0;
-  text-align: right;
-  float: right;
-  height: 27px;
-  list-style-type: none;
-}
-
-li {
-  display: inline-block;
-  width: 27px;
-  height: 27px;
-  border-radius: 50%;
-  background-color: #eee;
-  border: 1px solid white;
-  margin-right: 10px;
 }
 
 .li_white {
@@ -267,6 +268,7 @@ time {
 h6 {
   margin: 40px 0 0 0;
 }
+
 a:hover,
 a:link,
 a:visited,
@@ -409,6 +411,7 @@ title {
   width: 80px;
   height: 7px;
   border-bottom: 1px solid black;
+
   /* position: absolute; */
 }
 
@@ -518,6 +521,7 @@ title {
   height: 100%;
   width: 26%;
   color: rgb(51, 51, 51);
+
   /* background-color: red; */
 }
 
@@ -586,7 +590,9 @@ footer {
 
 .nyt_navigation {
   /* padding-bottom: 10px; */
+
   /* height: 600px; */
+
   /* background-color: red; */
   width: 100%;
   border-bottom: 1px solid #ccc;
@@ -656,6 +662,7 @@ footer {
   height: 1px;
   width: 60%;
   border-bottom: 1px solid #ccc;
+
   /* position: absolute; */
 }
 
@@ -663,6 +670,7 @@ footer {
   font-weight: 700;
   font-size: 1rem;
   padding-bottom: 5px;
+
   /* vertical-align: top; */
 }
 
@@ -691,6 +699,7 @@ footer {
 .footer_text {
   display: table-cell;
   vertical-align: middle;
+
   /* margin: 0 auto; */
 }
 
@@ -761,6 +770,7 @@ footer {
 
   .most_popular {
     width: 31%;
+
     /* background-color: red; */
   }
 
