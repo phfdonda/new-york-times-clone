@@ -98,9 +98,6 @@ li {
 }
 
 #user_btn {
-  /* width: 16px;
-  height: 16px; */
-  padding: 0;
   background-color: white;
   color: black;
 }
@@ -115,7 +112,6 @@ li {
 }
 
 .right_container {
-  display: inline-block;
   float: right;
   height: 100%;
   min-width: 33%;
@@ -129,7 +125,6 @@ li {
 }
 
 .left_container {
-  display: inline-block;
   height: 100%;
   float: left;
   width: calc(50% - 79.5px);
