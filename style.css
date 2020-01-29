@@ -14,14 +14,6 @@ main {
   margin: 100px auto 0 auto;
 }
 
-header,
-.top_of_article,
-.unlock_more,
-.tile,
-.story_footer {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
 header {
   padding-top: 5px;
   width: 100%;
@@ -31,6 +23,13 @@ header {
   background-color: white;
   border-bottom: 1px solid #ccc;
   z-index: 100;
+}
+
+footer {
+  /* height: 300px; */
+  margin: 0 auto;
+  width: 95%;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
 }
 
 iframe {
@@ -52,6 +51,14 @@ header i {
   font-size: 0.6rem;
 }
 
+h1 {
+  margin-top: 70px;
+  line-height: 1.5;
+  font-size: 2.1rem;
+  padding-left: 30%;
+  font-style: italic;
+}
+
 ul {
   margin: 0;
   text-align: right;
@@ -69,6 +76,41 @@ li {
   border: 1px solid white;
   margin-right: 10px;
 }
+
+li:hover {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+article>h2 {
+  display: none;
+}
+
+time {
+  line-height: 40px;
+  font-size: 0.8em;
+  color: grey;
+}
+
+h6 {
+  margin: 40px 0 0 0;
+}
+
+a:hover,
+a:link,
+a:visited,
+h6 {
+  font-size: 0.9rem;
+  color: black;
+  color: rgb(51, 51, 51);
+}
+
+title {
+  font-family: "nyt-imperial", serif;
+  font-weight: 700;
+}
+
+/********* CLASSES ***********/
 
 .content_center {
   width: 600px;
@@ -97,20 +139,6 @@ li {
   margin-right: 20px;
 }
 
-#user_btn {
-  background-color: white;
-  color: black;
-}
-
-#user_btn i {
-  font-size: 1.5rem;
-  padding: 0;
-}
-
-#user_btn:hover {
-  background-color: #ccc;
-}
-
 .right_container {
   float: right;
   height: 100%;
@@ -130,7 +158,6 @@ li {
   width: calc(50% - 79.5px);
 }
 
-/* TODO: SEPARATE CLASS AND TAG */
 .blue_btn {
   height: 32px;
   padding: 12px 12px 12px 12px;
@@ -147,20 +174,13 @@ li {
   background-color: white;
 }
 
-.li_white:hover {
-  border: 1px solid white;
-}
-
-.li i {
-  color: black;
+.material-icons-outlined {
+  color: rgb(136, 136, 136);
   font-size: 0.8rem;
 }
 
-#bookmark {
-  padding: 0;
-  width: 25px;
-  height: 25px;
-  top: 50px;
+.li_white:hover {
+  border: 1px solid white;
 }
 
 .top_of_article li svg {
@@ -169,22 +189,9 @@ li {
   padding: 5px;
 }
 
-li:hover {
-  background-color: white;
-  border: 1px solid #ccc;
-}
-
 .date_and_actions {
   padding-top: 20px;
   height: 37px;
-}
-
-h1 {
-  margin-top: 70px;
-  line-height: 1.5;
-  font-size: 2.1rem;
-  padding-left: 30%;
-  font-style: italic;
 }
 
 .content .paragraph {
@@ -225,7 +232,7 @@ h1 {
   top: 17px;
 }
 
-/********* CLASSES ***********/
+
 
 .main_image {
   width: 80%;
@@ -234,10 +241,6 @@ h1 {
 
 .main_image_caption {
   width: 70%;
-}
-
-article>h2 {
-  display: none;
 }
 
 .caption {
@@ -252,25 +255,6 @@ article>h2 {
 
 .main_image img {
   max-width: 100%;
-}
-
-time {
-  line-height: 40px;
-  font-size: 0.8em;
-  color: grey;
-}
-
-h6 {
-  margin: 40px 0 0 0;
-}
-
-a:hover,
-a:link,
-a:visited,
-h6 {
-  font-size: 0.9rem;
-  color: black;
-  color: rgb(51, 51, 51);
 }
 
 .bottom_of_article svg {
@@ -336,11 +320,6 @@ h6 {
   margin-bottom: 15px;
   border-bottom: 1px solid #ccc;
   height: 1px;
-}
-
-title {
-  font-family: "nyt-imperial", serif;
-  font-weight: 700;
 }
 
 .infographic_container {
@@ -576,12 +555,7 @@ title {
   clear: both;
 }
 
-footer {
-  /* height: 300px; */
-  margin: 0 auto;
-  width: 95%;
-  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
-}
+
 
 .nyt_navigation {
   /* padding-bottom: 10px; */
@@ -749,6 +723,31 @@ footer {
   font-size: 0.7rem;
 }
 
+/**** IDs **********/
+
+#user_btn {
+  background-color: white;
+  color: black;
+}
+
+#user_btn i {
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+#user_btn:hover {
+  background-color: #ccc;
+}
+
+#bookmark {
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  top: 50px;
+}
+
+/**** MEDIA QUERIES ****/
+
 @media (max-width: 1200px) {
   .big_res_cell {
     display: none;
@@ -765,8 +764,6 @@ footer {
 
   .most_popular {
     width: 31%;
-
-    /* background-color: red; */
   }
 
   .footer_text {
