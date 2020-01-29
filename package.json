@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/phfdonda/new-york-times-clone/issues"
   },
-  "homepage": "https://github.com/phfdonda/new-york-times-clone#readme"
+  "homepage": "https://github.com/phfdonda/new-york-times-clone#readme",
+  "devDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
 }

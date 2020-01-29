@@ -131,7 +131,7 @@ li {
 }
 
 /* TODO: SEPARATE CLASS AND TAG */
-.right_header button {
+.blue_btn {
   height: 32px;
   padding: 12px 12px 12px 12px;
   background-color: #567b95;
@@ -236,7 +236,7 @@ h1 {
   width: 70%;
 }
 
-article > h2 {
+article>h2 {
   display: none;
 }
 
@@ -520,7 +520,7 @@ title {
   /* background-color: red; */
 }
 
-.most_popular > * {
+.most_popular>* {
   padding: 15px 0;
 }
 
@@ -861,6 +861,7 @@ footer {
 }
 
 @media (max-width: 1080px) {
+
   .subscribe,
   .log_in,
   .space_cosmos,
