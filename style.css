@@ -742,7 +742,7 @@ title {
 
 .date_of_release {
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
-  color: rgb(153,153,153);
+  color: rgb(153, 153, 153);
   font-size: 0.7rem;
   font-weight: 400;
 }
@@ -924,5 +924,4 @@ title {
     font-weight: 900;
     font-size: 0.9rem;
   }
-}
 }
