@@ -120,6 +120,10 @@ title {
   text-transform: uppercase;
 }
 
+.space_cosmos > b {
+  color: black;
+}
+
 .small_title {
   font-family: "nyt-franklin", sans-serif;
   font-size: 1.2rem;
@@ -734,6 +738,13 @@ title {
   font-size: 0.7rem;
   font-weight: 700;
   margin-right: 5px;
+}
+
+.date_of_release {
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+  color: rgb(153,153,153);
+  font-size: 0.7rem;
+  font-weight: 400;
 }
 
 /**** IDs **********/
