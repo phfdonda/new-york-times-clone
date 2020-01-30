@@ -143,6 +143,7 @@ title {
   display: inline-block;
   height: 100%;
   min-width: 195px;
+  margin-top: 5px;
 }
 
 .left_container {
@@ -332,12 +333,21 @@ title {
   width: 945px;
 }
 
+.infographic_table {
+  position: absolute;
+}
+
 .infographic {
-  background-image: url(/resources/inflation-945.png);
-  background-size: cover;
+  position: relative;
   height: 576px;
   margin: 0 auto;
   width: 100%;
+}
+
+.infographic_image {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
 }
 
 .infographic_container h5 {
@@ -525,10 +535,17 @@ title {
 }
 
 .nyt_navigation_logo {
+  position: relative;
+  display: block;
   border-top: 3px double #ccc;
   height: 44px;
   margin-top: 40px;
   width: 100%;
+}
+
+.logo_link_wrapper {
+  height: 100%;
+  width: 184px;
 }
 
 .nyt_navigation_logo svg {
@@ -537,9 +554,9 @@ title {
   width: 184px;
 }
 
-.nyt_navigation_logo a {
-  color: rgb(86, 123, 149);
+#home_page {
   float: right;
+  color: rgb(86, 123, 149);
   font-size: 0.7rem;
   padding-top: 22px;
   text-decoration: none;
@@ -896,4 +913,5 @@ title {
     font-weight: 900;
     font-size: 0.9rem;
   }
+}
 }
