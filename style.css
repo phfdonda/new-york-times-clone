@@ -281,14 +281,14 @@ title {
   width: 30%;
 }
 
-.aside {
+.aside_content {
   bottom: 115px;
   float: left;
   position: relative;
   width: 210px;
 }
 
-.aside h2 {
+.aside_content h2 {
   border-bottom: 1px solid #ccc;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.8rem;
@@ -298,13 +298,13 @@ title {
   padding-bottom: 12px;
 }
 
-.aside a {
+.aside_content a {
   display: table;
   margin-bottom: 20px;
   text-decoration: none;
 }
 
-.aside h3 {
+.aside_content h3 {
   display: table-cell;
   font-family: nyt-cheltenham-small, Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
@@ -314,7 +314,7 @@ title {
   vertical-align: middle;
 }
 
-.aside img {
+.aside_content img {
   background-color: blue;
   float: left;
   height: 75px;
@@ -516,6 +516,7 @@ title {
   margin-top: 20px;
   vertical-align: top;
   width: 33%;
+  text-decoration: none;
 }
 
 .more_in_cell h3 {
@@ -523,6 +524,21 @@ title {
   font-size: 1.2rem;
   font-weight: 600;
   margin: 10px 0;
+}
+
+.more_in_cell:link,
+.more_in_cell:visited {
+  color: black;
+}
+
+.more_in_cell:hover {
+  color: rgb(102, 102, 102);
+}
+
+.release_date {
+  color: rgb(153, 153, 153);
+  font-size: 0.8rem;
+  font-family: nyt-franlin, arial, helvetica, sans-serif;
 }
 
 .clear {
@@ -704,7 +720,7 @@ title {
   text-decoration: none;
 }
 
-.aside a:hover {
+.aside_content a:hover {
   text-decoration: underline;
 }
 
@@ -872,7 +888,7 @@ title {
 }
 
 @media (max-width: 1000px) {
-  .aside {
+  .aside_content {
     display: none;
   }
 }
@@ -897,11 +913,11 @@ title {
     position: relative;
   }
 
-  .aside img {
+  .aside_content img {
     display: none;
   }
 
-  .aside {
+  .aside_content {
     width: 120px;
   }
 
